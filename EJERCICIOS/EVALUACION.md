@@ -14,8 +14,10 @@ Preguntas:
 
 3. En una BD al usuario del sistema se le brindarán recursos para realizar diversas
 operaciones sobre estos archivos, tales como: (valor 1.5)
+Informacion, reservas, bases de datos de forma distribuida geográficamente, matrículas, compras
 
 4. ¿Qué es un Sistema de Información? (valor 1.5)
+Es una base de datos relaconal que existe tras distintas entidades que nos ayuda a analizar y almacenar datos primario
 
 ## Práctica 2.
 
@@ -53,3 +55,5 @@ constan de un título y una extensión.
 
 ● Para cada revista, almacenaremos información de cada ejemplar, que incluirá la
 fecha, número de páginas y el número de ejemplares vendidos.
+
+![image](https://user-images.githubusercontent.com/103153624/175111487-e58039ba-4425-4800-89c7-fda7644e9491.png)

@@ -23,7 +23,7 @@ En la BD utilizada en clase realiza las siguientes consultas:
       
 * Muestra que periodistas colaboraron en x revista y en que sucursal se publico la revista
 
-      SELECT nombre_periodista,titulo,codigo_de_sucursal
+       SELECT nombre_periodista,titulo,codigo_de_sucursal
       FROM periodistas INNER JOIN trabajan ON trabajan.nif1=periodistas.nif INNER JOIN revista ON revista.numero_de_registro=trabajan.numero_de_registro2 INNER JOIN publican ON numero_de_registro1=revista.numero_de_registro INNER JOIN sucursal ON sucursal.codigo_de_sucursal=publican.codigo_de_sucursal2 INNER JOIN empleados ON empleados.nif=codigo_de_sucursal1=sucursal.codigo_de_sucursal
       WHERE codigo_de_sucursal=1;
 
